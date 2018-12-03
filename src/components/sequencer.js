@@ -19,8 +19,8 @@ class Sequencer extends Component {
       console.log('update drum is called')
       this.drums = new Tone.Players({
         "Kick": this.props.recordFile[0],
-        "HH": "audio/hh.mp3",
-        "Snare": "audio/snare.mp3"
+        "HH": "https://frog-ny.github.io/beatrockers/build/audio/hh.mp3",
+        "Snare": "https://frog-ny.github.io/beatrockers/build/audio/snare.mp3"
       }, {
         "volume": -10,
         "fadeOut": "32n"
@@ -35,9 +35,9 @@ class Sequencer extends Component {
   initTone(){
     this.transport = Tone.Transport;
     this.drums = new Tone.Players({
-      "Kick": "audio/kick.mp3",
-      "HH": "audio/hh.mp3",
-      "Snare": "audio/snare.mp3"
+      "Kick": "https://frog-ny.github.io/beatrockers/build/audio/kick.mp3",
+      "HH": "https://frog-ny.github.io/beatrockers/build/audio/hh.mp3",
+      "Snare": "https://frog-ny.github.io/beatrockers/build/audio/snare.mp3"
     }, {
       "volume": -10,
       "fadeOut": "32n"
