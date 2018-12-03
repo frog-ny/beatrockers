@@ -17,7 +17,7 @@ Visit the [Airtable](https://airtable.com/tbloTysbX6RKMGqd2/viwijbvau0UMShRIe) f
 ## Backlog
 
 #### Front-end
-- [ ] 
+- [ ] Playhead
 - [ ] Ability to view existing recordings
 
 #### Web Audio
