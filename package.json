@@ -100,5 +100,8 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "homepage": "http://jffng.github.io/beatrockers/build/"
+  "homepage": "http://jffng.github.io/beatrockers/build/",
+  "devDependencies": {
+    "merge": "^1.2.1"
+  }
 }
